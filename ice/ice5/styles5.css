@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content to the bottom */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+img {
+    max-width: 100%; /* Ensure images are responsive */
+}
+
+.circlesbox {
+    display: flex;
+    justify-content: center; /* Center the images */
+    width: 800px; /* Adjust width as needed */
+    background-color: lightgrey; /* Set a grey background */}
+
+.circle {
+    width: 80px; /* Set a fixed width for the images */
+    height: 80px; /* Set a fixed height for the images */
+    border-radius: 50%; /* Make images circular */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    margin: 15px; /* Space between circles */
+    border: 5px solid grey; /* Add a small grey border */
+}

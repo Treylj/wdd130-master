@@ -1,0 +1,137 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif; /* Change body font */
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Light background for contrast */
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #004d00; /* Dark green background */
+    color: white; /* Ensure text is legible */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust logo size */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white; /* Ensure link text is legible */
+    text-decoration: none;
+}
+
+/* Hero banner styling */
+.hero-banner {
+    background-color: #007f00; /* Slightly lighter green */
+    color: white; /* Ensure text is legible */
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-banner h1 {
+    font-size: 2.5em; /* Larger headline */
+}
+
+.hero-banner p {
+    font-size: 1.2em; /* Adjusted font size */
+}
+
+/* Cards section styling */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white; /* White background for contrast */
+    border: 2px solid #007f00; /* Green border */
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%; /* Adjust width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.card h2 {
+    font-size: 1.5em; /* Card title size */
+    color: #007f00; /* Ensure title text is legible */
+}
+
+.card p {
+    font-size: 1em; /* Card paragraph size */
+}
+
+/* Main image section styling */
+.main-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-image img {
+    max-width: 100%; /* Responsive image */
+    border-radius: 10px; /* Rounded edges */
+}
+
+.main-image h2 {
+    font-size: 2em; /* Headline size */
+    margin-top: 10px;
+    color: #007f00; /* Ensure headline text is legible */
+}
+
+.main-image p {
+    font-size: 1.1em; /* Adjusted paragraph size */
+    color: #333; /* Darker text for contrast */
+}
+
+/* Footer styling */
+footer {
+    background-color: #004d00; /* Dark green background */
+    color: white; /* Ensure text is legible */
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    color: white; /* Ensure link text is legible */
+    text-decoration: none;
+}
+
+.footer-content p {
+    margin-top: 10px;
+}
